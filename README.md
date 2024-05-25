@@ -1,11 +1,37 @@
 # Mini WordPress Clone with Role and Permissions System
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://creativedesignsguru.com/demo/Nextjs-Boilerplate/"><img height="300" src="public/assets/images/nextjs-starter-banner.png?raw=true" alt="Next js starter banner"></a>
-</p>
+</p> -->
 
 This project is a small WordPress clone built with Next.js, Tailwind CSS, and TypeScript. It includes a robust role and permissions system to manage user access and capabilities. The project aims to provide a customizable and scalable foundation for building content management systems with modern web technologies
 
+
+
+### Portfolio
+<a href="https://ibb.co/Rz4jgnk"><img src="https://i.ibb.co/Gc3Hdw4/screencapture-localhost-3000-2024-05-25-17-04-14.png" alt="screencapture-localhost-3000-2024-05-25-17-04-14" border="0" /></a>
+
+
+This portfolio showcases my work and projects. It's a dynamic and visually appealing website that highlights my skills, experiences, and achievements.
+
+### User Management
+<a href="https://ibb.co/YNLHwxS"><img src="https://i.ibb.co/0nGHvxL/screencapture-localhost-3000-dashboard-users-2024-05-25-16-57-02.png" alt="screencapture-localhost-3000-dashboard-users-2024-05-25-16-57-02" border="0" /></a>
+
+The user management section provides comprehensive tools for managing user accounts within the system. It includes features for user registration, login, profile management, and access control.
+
+### Edit Section Builder
+<a href="https://ibb.co/PZnS33J"><img src="https://i.ibb.co/4ZGQ99C/screencapture-localhost-3000-dashboard-sections-2024-05-25-16-57-37.png" alt="screencapture-localhost-3000-dashboard-sections-2024-05-25-16-57-37" border="0" /></a>
+
+The Edit Section Builder is a powerful tool for customizing the layout and content of the website. It allows users to add, edit, and rearrange sections with ease using a simple drag-and-drop interface. Additionally, it provides options for directly manipulating code, ensuring full control over the website's design and functionality.
+
+The builder features code addition and manipulation through drag-and-drop, allowing for customization directly from the code with responsive checks.
+
+### Roles and Permissions
+!<a href="https://ibb.co/LP8jnXX"><img src="https://i.ibb.co/SxPYR44/screencapture-localhost-3000-dashboard-role-permissions-2024-05-25-17-03-30.png" alt="screencapture-localhost-3000-dashboard-role-permissions-2024-05-25-17-03-30" border="0" /></a>
+
+The roles and permissions system enables administrators to define and manage user roles and access levels within the application. It includes features for creating custom roles, assigning permissions, and controlling access to specific features or content.
+
+The roles and permissions include a folder node for dragging and adding new users and assigning roles. Administrators can easily configure permissions for each role, ensuring proper security and data protection measures are in place.
 
 
 ## Sponsors
@@ -107,30 +133,7 @@ This project is a small WordPress clone built with Next.js, Tailwind CSS, and Ty
 </table>
 
 
-### Portfolio
-<a href="https://ibb.co/Rz4jgnk"><img src="https://i.ibb.co/Gc3Hdw4/screencapture-localhost-3000-2024-05-25-17-04-14.png" alt="screencapture-localhost-3000-2024-05-25-17-04-14" border="0" /></a>
 
-
-This portfolio showcases my work and projects. It's a dynamic and visually appealing website that highlights my skills, experiences, and achievements.
-
-### User Management
-<a href="https://ibb.co/YNLHwxS"><img src="https://i.ibb.co/YNLHwxS/screencapture-localhost-3000-dashboard-users-2024-05-25-16-57-02.png" alt="screencapture-localhost-3000-dashboard-users-2024-05-25-16-57-02" border="0" /></a>
-
-The user management section provides comprehensive tools for managing user accounts within the system. It includes features for user registration, login, profile management, and access control.
-
-### Edit Section Builder
-![Builder](https://ibb.co/PZnS33J)
-
-The Edit Section Builder is a powerful tool for customizing the layout and content of the website. It allows users to add, edit, and rearrange sections with ease using a simple drag-and-drop interface. Additionally, it provides options for directly manipulating code, ensuring full control over the website's design and functionality.
-
-The builder features code addition and manipulation through drag-and-drop, allowing for customization directly from the code with responsive checks.
-
-### Roles and Permissions
-![Roles and Permissions](https://ibb.co/LP8jnXX)
-
-The roles and permissions system enables administrators to define and manage user roles and access levels within the application. It includes features for creating custom roles, assigning permissions, and controlling access to specific features or content.
-
-The roles and permissions include a folder node for dragging and adding new users and assigning roles. Administrators can easily configure permissions for each role, ensuring proper security and data protection measures are in place.
 
 
 ### Features
