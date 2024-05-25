@@ -34,6 +34,14 @@ export default withSentryConfig(
 
         return config;
       },
+      images: {
+        domains: [
+          'cdn.worldvectorlogo.com',
+          'avatars.githubusercontent.com',
+          'static.wixstatic.com',
+          'th.bing.com'
+        ],
+      },
     }),
   ),
   {

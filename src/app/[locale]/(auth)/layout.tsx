@@ -1,5 +1,8 @@
 import { enUS, frFR } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
+import { auth } from '@clerk/nextjs/server';
+
+import { SyncActiveOrganization } from '@/components/syncActiveOrganization';
 
 export default function AuthLayout(props: {
   children: React.ReactNode;
@@ -20,6 +23,9 @@ export default function AuthLayout(props: {
     dashboardUrl = `/${props.params.locale}${dashboardUrl}`;
   }
 
+  const { userId, orgId, sessionClaims } = auth();
+  // console.log(sessionClaims)
+
   return (
     <ClerkProvider
       localization={clerkLocale}
@@ -28,6 +34,7 @@ export default function AuthLayout(props: {
       afterSignInUrl={dashboardUrl}
       afterSignUpUrl={dashboardUrl}
     >
+      <SyncActiveOrganization membership={sessionClaims?.membership} />
       {props.children}
     </ClerkProvider>
   );

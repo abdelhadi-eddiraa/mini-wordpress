@@ -11,41 +11,38 @@ export default function Layout(props: { children: React.ReactNode }) {
     <BaseTemplate
       leftNav={
         <>
-          <li>
-            <Link
-              href="/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
+          <li className="list-none">
+            <Link href="/" className="border-none text-white hover:font-bold">
               {t('home_link')}
             </Link>
           </li>
-          <li>
+          <li className="list-none">
             <Link
               href="/about/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              className="border-none text-white hover:font-bold"
             >
               {t('about_link')}
             </Link>
           </li>
-          <li>
+          <li className="list-none">
             <Link
               href="/guestbook/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              className="border-none text-white hover:font-bold"
             >
               {t('guestbook_link')}
             </Link>
           </li>
-          <li>
+          <li className="list-none">
             <Link
               href="/portfolio/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              className="border-none text-white hover:font-bold"
             >
               {t('portfolio_link')}
             </Link>
           </li>
-          <li>
+          <li className="list-none">
             <a
-              className="border-none text-gray-700 hover:text-gray-900"
+              className="border-none text-white hover:font-bold"
               href="https://github.com/ixartz/Next-js-Boilerplate"
             >
               GitHub
@@ -55,25 +52,25 @@ export default function Layout(props: { children: React.ReactNode }) {
       }
       rightNav={
         <>
-          <li>
+          <li className="list-none rounded-md bg-gray-700 px-2 py-1">
             <Link
               href="/sign-in/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              className="border-none font-medium text-white"
             >
               {t('sign_in_link')}
             </Link>
           </li>
 
-          <li>
+          <li className="list-none rounded-md bg-gray-700 px-2 py-1">
             <Link
               href="/sign-up/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              className="border-none font-medium text-white "
             >
               {t('sign_up_link')}
             </Link>
           </li>
 
-          <li>
+          <li className="list-none rounded-md bg-gray-700 px-2 py-1">
             <LocaleSwitcher />
           </li>
         </>

@@ -39,7 +39,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@/public/*": ["./public/*"]
+      "@/public/*": ["./public/*"],
+      "@/stores/*": ["./stores/*"]
     },
 
     // Editor support
@@ -56,6 +57,7 @@
     "**/*.tsx",
     ".storybook/*.ts",
     ".next/types/**/*.ts",
-    "src/libs/Env.mjs"
+    "src/libs/Env.mjs",
+   
   ]
 }

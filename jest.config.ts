@@ -15,6 +15,7 @@ const config: Config = {
     '^@/public/(.*)$': '<rootDir>/public/$1',
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+
   clearMocks: true,
   collectCoverage: true,
   collectCoverageFrom: [
