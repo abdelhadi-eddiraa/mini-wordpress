@@ -108,12 +108,13 @@ This project is a small WordPress clone built with Next.js, Tailwind CSS, and Ty
 
 
 ### Portfolio
-![Portfolio Website](https://i.ibb.co/Rz4jgnk/your-image-name.jpg)
+<a href="https://ibb.co/Rz4jgnk"><img src="https://i.ibb.co/Gc3Hdw4/screencapture-localhost-3000-2024-05-25-17-04-14.png" alt="screencapture-localhost-3000-2024-05-25-17-04-14" border="0" /></a>
+
 
 This portfolio showcases my work and projects. It's a dynamic and visually appealing website that highlights my skills, experiences, and achievements.
 
 ### User Management
-![User Management Sections](https://ibb.co/YNLHwxS)
+<a href="https://ibb.co/YNLHwxS"><img src="https://i.ibb.co/YNLHwxS/screencapture-localhost-3000-dashboard-users-2024-05-25-16-57-02.png" alt="screencapture-localhost-3000-dashboard-users-2024-05-25-16-57-02" border="0" /></a>
 
 The user management section provides comprehensive tools for managing user accounts within the system. It includes features for user registration, login, profile management, and access control.
 
